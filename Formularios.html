@@ -2,15 +2,79 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Formularios </title>
+    <title>Formulario</title>
 </head>
+
 <body>
     <h1> Formularios</h1>
     
     <form action="datos" method="get">
-        <label>Soy un label</label>
-
-</form>
+        <label for="texto">Usuario</label>
+        <input type="text" id="texto" name="texto" placeholder="Ingrese tu nombre" style="background-color: lightgrey">
+        <br><br>
+        
+        <label for="contraseña">Contraseña</label>
+        <input type="password" id="contraseña" name="contraseña" placeholder="Ingrese tu contraseña" style="background-color: lightgrey">
+        <br><br>
+        
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" name="correo" placeholder="Ingresa tú correo" style="background-color: lightgrey">
+        <br><br>
+        
+        <label for="telefono">Número de teléfono</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu # de teléfono" minlength="1" maxlength="10" style="background-color: lightgrey">
+        <br><br>
+        <!-- CAMPO PARA NUMEROS -->
+        <label for="ruta">URL</label>
+        <input type="url" id="ruta" name="rutas" placeholder="Ingresa URL" style="background-color: lightgrey">
+        <br><br>
+        
+        <label for="rango">Rango</label>
+        <input type="range" id="rango" name="rango" style="background-color: lightgrey">
+        <br><br>
+        
+        <label for="fecha">Fecha</label>
+        <input type="date" id="fecha" name="fecha" style="background-color: lightgrey">
+        <br><br>
+        
+        <label for="time">Hora</label>
+        <input type="time" id="time" name="time" style="background-color: lightgrey">
+        <br><br>
+        
+        <label for="datetime">Datatime</label>
+        <input type="datetime-local" id="datetime" name="datetime" style="background-color: lightgrey">
+        <br><br>
+        
+        <label for="mes">Mes</label>
+        <input type="month" id="mes" name="mes" style="background-color: lightgrey">
+        <br><br>
+        
+        <label for="semana">Semana</label>
+        <input type="week" id="semana" name="semana" style="background-color: lightgrey">
+        <br><br>
+        
+        <label for="colores">Colores</label>
+        <input type="color" id="colores" name="colores" style="background-color: lightgrey">
+        <br><br>
+        
+        <label for="seleccion">Selección</label>
+        <input type="checkbox" id="seleccion" name="seleccion" style="background-color: lightgrey">
+        <br><br>
+        
+        <label for="archivo">Archivo</label>
+        <input type="file" id="archivo" name="archivo" style="background-color: lightgrey">
+        <br><br>
+        
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    </form>
 
 </body>
 </html>
