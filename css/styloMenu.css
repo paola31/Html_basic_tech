@@ -1,0 +1,79 @@
+.navbar {
+    display: flex;/*distribuir contenido manera horizontal*/
+    justify-content: space-between;/*espacio entre los elementos a lo largo*/
+    align-items: center;/*alinea los elementos verticalmente*/
+    padding: 10px;/*espacio interno entre los elementos*/
+    background-color: #1b263b
+}
+
+
+img {
+    border-radius: 10px;
+}
+
+.nav\.links li a{ /*la clase seguido va las etiquetas que se quieren modificar*/
+    color: #888888;/* color del texto*/
+    text-decoration: none/*elimina el subrayado de los enlaces*/;
+    padding: 8px 15px;
+}
+
+.nav\.links  { /*la clase*/
+    list-style: none; /*elimina los puntos de las listas*/
+    display: flex;
+    gap: 15px;
+}
+
+.dropdown {
+    position: relative;/*posiciona el contenedor del dropdown*/
+}
+
+.dropdown-content a {
+    padding: 12px 16px; /* espacio interno alededor de los enlaces x y y*/
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(44, 41, 41, 0.3);
+    min-width: 128px;
+    box-shadow: #888888;
+    border-radius: 6px;
+}
+/*muestra el contenido del dropdown al pasar el cursor*/
+.dropdown:hover .dropdown-content {
+    display: block;/*muestra el contenido cuanddo el cursor esta sobre el contenido*/
+}
+
+.nav\.links li a:hover {
+    background-color: #6b7d83;
+    border-radius: 4px;/* bordes redondeados*/
+}
+
+button {
+    color: #fff; /* Color del texto */
+    background-color: #6b9080; /* Color de fondo */
+    padding: 10px 20px; /* Espaciado interno (padding) */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de la fuente */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave */
+}
+
+/* Estilo del botón cuando el cursor está sobre él */
+button:hover {
+    background-color: #55877f; /* Cambia el color de fondo al pasar el cursor */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+/* Estilo para el campo de texto */
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+    margin-right: 10px; /* Espaciado entre el campo de texto y el botón */
+}
