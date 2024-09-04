@@ -3,13 +3,36 @@
     justify-content: space-between;/*espacio entre los elementos a lo largo*/
     align-items: center;/*alinea los elementos verticalmente*/
     padding: 10px;/*espacio interno entre los elementos*/
-    background-color: #1b263b
+    background-color: #1b263b;
+    position: relative;
+
 }
 
 
 img {
-    border-radius: 10px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 16px;
+
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(185, 204, 213, 0.51);
+    border-radius: 16px;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.05px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 10px solid rgba(86, 125, 146, 0.32);
+    pointer-events: none; /* Para que el overlay no interfiera con la interacción de la imagen */
+}
+
+
+
 
 .nav\.links li a{ /*la clase seguido va las etiquetas que se quieren modificar*/
     color: #888888;/* color del texto*/
@@ -76,4 +99,34 @@ input[type="text"] {
     border: 1px solid #ccc;
     width: 250px;
     margin-right: 10px; /* Espaciado entre el campo de texto y el botón */
+}
+
+.navbar1 .logo1 svg {
+    width: 500px; /* Ajusta el ancho del SVG */
+    height: 500px; /* Ajusta la altura del SVG */
+}
+body {
+
+
+background: rgba(124, 132, 138, 0.4);
+-webkit-backdrop-filter: blur(7px);
+backdrop-filter: blur(7px);
+border: 1px solid rgba(35, 55, 66, 0.32);
+}
+
+.klee-one-regular {
+    font-family: "Klee One", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.klee-one-semibold {
+    font-family: "Klee One", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.parrafo {
+    font-family: "Klee One", serif;
+    font-size: 20px;
 }
