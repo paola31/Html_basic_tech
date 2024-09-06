@@ -1,0 +1,66 @@
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    height: 100px; /* Ajusta la altura del navbar */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #9a8c98;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+.btn {
+    background-color: #c9ada7;
+}
+
+.btn-outline-success {
+    border-color: #555555; /* Cambia el color del borde (la línea) */
+    color: #555555; /* Cambia el color del texto */
+    background-color: #c9ada7; /* Mantiene el fondo transparente */
+}
+
+/* Estilos para cuando el mouse pasa por encima (hover) */
+.btn-outline-success:hover {
+    background-color: #4a4e69; /* Cambia el fondo cuando el mouse pasa por encima */
+    color: white; /* Cambia el color del texto al pasar el mouse */
+    border-color: #555555; /* Mantiene el borde del mismo color */
+}
+
+.text-center {
+    font-family: Barlow, sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+    border-color: #5c6062;
+}
+.card-img-top {
+    width: 100%; /* Hace que la imagen ocupe el ancho completo de la tarjeta */
+    height: 300px; /* Ajusta la altura de la imagen */
+    object-fit: cover; /* Escala la imagen para cubrir el espacio sin distorsionarse */
+}
+
+.card-title {
+   font-family: Barlow, sans-serif;
+
+}
+
+.btn-primary{
+    background-color:#c9ada7 ;
+}
+
+.progress .progress-bar {
+    background-color: #4a4e69;
+}
+
+.progress-barCSS {
+    background-color:#22223b ;
+}
+
+.progress-barJAVA {
+    background-color: #284b63;
+}
